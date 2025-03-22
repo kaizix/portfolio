@@ -438,7 +438,6 @@
         <div class="project-tech">
           <span class="tech-tag">Java</span>
           <span class="tech-tag">HTML</span>
-          <span class="tech-tag">CSS</span>
           <span class="tech-tag">JavaScript</span>
         </div>
       </div>
@@ -489,21 +488,12 @@
       <div class="card skill-card">
         <i class="fas fa-chart-bar"></i>
         <h3>Visualisation</h3>
-        <p>Tableau, PowerBI, D3.js, Matplotlib</p>
+        <p>Tableau, Seaborn, Matplotlib</p>
         <div class="skill-level">
           <div class="skill-progress" style="width: 75%;"></div>
         </div>
       </div>
 
-      <div class="card skill-card">
-        <i class="fas fa-network-wired"></i>
-        <h3>Deep Learning</h3>
-        <p>TensorFlow, PyTorch, CNN, RNN, Transformers</p>
-        <div class="skill-level">
-          <div class="skill-progress" style="width: 70%;"></div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <section class="section" id="contact">
@@ -709,7 +699,7 @@
         }, function(error) {
           console.log("FAILED...", error);
           // Message d'erreur plus détaillé
-          alert("Erreur lors de l'envoi: " + JSON.stringify(error));
+          alert("Erreur lors de l'envoi : " + JSON.stringify(error));
         })
         .finally(function() {
           submitButton.innerHTML = originalText;
